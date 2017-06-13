@@ -1,6 +1,6 @@
 import blockInlineStyles from '../../src/blockInlineStyles';
 import React from 'react';
-import { convertFromRaw, convertToRaw } from 'draft-js';
+import { convertFromRaw, convertToRaw } from '@jonny/draft-js';
 
 const buildRawBlock = (text, styleRanges) => {
   return convertToRaw(convertFromRaw({

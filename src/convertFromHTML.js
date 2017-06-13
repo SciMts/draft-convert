@@ -11,7 +11,7 @@
  */
 
 import { List, OrderedSet, Map } from 'immutable';
-import { ContentState, CharacterMetadata, ContentBlock, genKey } from 'draft-js';
+import { ContentState, CharacterMetadata, ContentBlock, genKey } from '@jonny/draft-js';
 import getSafeBodyFromHTML from './util/parseHTML';
 import rangeSort from './util/rangeSort';
 

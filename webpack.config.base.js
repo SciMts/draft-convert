@@ -18,7 +18,7 @@ module.exports = {
     libraryTarget: 'umd'
   },
   externals: {
-    'draft-js': 'Draft',
+    '@jonny/draft-js': 'Draft',
     'immutable': 'Immutable',
     'react': 'React',
     'react-dom': 'ReactDOM',

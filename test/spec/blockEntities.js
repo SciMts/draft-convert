@@ -3,7 +3,7 @@ import blockInlineStyles from '../../src/blockInlineStyles';
 import encodeBlock from '../../src/encodeBlock';
 import { Map } from 'immutable';
 import React from 'react';
-import { convertFromRaw, convertToRaw } from 'draft-js';
+import { convertFromRaw, convertToRaw } from '@jonny/draft-js';
 
 const buildRawBlock = (text, entityMap = {}, styleRanges = [], entityRanges = [], data = Map()) => {
   return convertToRaw(convertFromRaw({
